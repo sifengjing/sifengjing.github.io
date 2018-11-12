@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>WEB前端开发 | 技术交流博客</title>
+  <title>WEB开发 | 技术交流博客</title>
   
   <subtitle>热爱网站建设的前端设计工作者</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/297092319/sfj.github.io.git/"/>
-  <updated>2018-10-19T08:41:18.694Z</updated>
+  <updated>2018-11-12T11:31:32.215Z</updated>
   <id>https://github.com/297092319/sfj.github.io.git/</id>
   
   <author>
@@ -17,23 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://github.com/297092319/sfj.github.io.git/2018/10/19/hello-world/"/>
-    <id>https://github.com/297092319/sfj.github.io.git/2018/10/19/hello-world/</id>
-    <published>2018-10-19T08:41:18.693Z</published>
-    <updated>2018-10-19T08:41:18.694Z</updated>
+    <title>hexo 添加标签和分类</title>
+    <link href="https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/"/>
+    <id>https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/</id>
+    <published>2018-04-27T15:00:34.000Z</published>
+    <updated>2018-11-12T11:31:32.215Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="这是一篇测试文章"><a href="#这是一篇测试文章" class="headerlink" title="这是一篇测试文章"></a>这是一篇测试文章</h1><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h1 id=&quot;这是一篇测试文章&quot;&gt;&lt;a href=&quot;#这是一篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;这是一篇测试文章&quot;&gt;&lt;/a&gt;这是一篇测试文章&lt;/h1&gt;&lt;h2 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot; titl
       
     
     </summary>
     
+      <category term="web前端" scheme="https://github.com/297092319/sfj.github.io.git/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="jQuery" scheme="https://github.com/297092319/sfj.github.io.git/tags/jQuery/"/>
+    
+      <category term="表格" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E8%A1%A8%E6%A0%BC/"/>
+    
+      <category term="表单验证" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
     
   </entry>
   
