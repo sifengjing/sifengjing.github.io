@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/297092319/sfj.github.io.git/"/>
-  <updated>2018-11-13T10:02:14.984Z</updated>
+  <updated>2018-11-13T10:36:12.139Z</updated>
   <id>https://github.com/297092319/sfj.github.io.git/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/297092319/sfj.github.io.git/2018/11/13/sfj2/"/>
     <id>https://github.com/297092319/sfj.github.io.git/2018/11/13/sfj2/</id>
     <published>2018-11-13T09:49:33.000Z</published>
-    <updated>2018-11-13T10:02:14.984Z</updated>
+    <updated>2018-11-13T10:36:12.139Z</updated>
     
     <content type="html"><![CDATA[<h3 id="使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>使用hexo d 提示You should configure deployment settings in _config.yml first!</h3><h5 id="问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!</h5><h5 id="Available-deployer-plugins"><a href="#Available-deployer-plugins" class="headerlink" title="Available deployer plugins:"></a>Available deployer plugins:</h5><h5 id="git"><a href="#git" class="headerlink" title="git"></a>git</h5><h5 id="For-more-help-you-can-check-the-online-docs-http-hexo-io"><a href="#For-more-help-you-can-check-the-online-docs-http-hexo-io" class="headerlink" title="For more help, you can check the online docs: http://hexo.io/"></a>For more help, you can check the online docs: <a href="http://hexo.io/" target="_blank" rel="noopener">http://hexo.io/</a></h5><p>###解决问题:</p><p>#####1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装</p><p>#####2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。</p><p>#####以下为正确的写法(图片):<br><img src="https://s1.ax1x.com/2018/11/13/iObz90.jpg" alt="iObz90.jpg"></p>]]></content>
     
