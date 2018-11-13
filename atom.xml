@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/297092319/sfj.github.io.git/"/>
-  <updated>2018-11-12T11:31:32.215Z</updated>
+  <updated>2018-11-13T09:42:13.978Z</updated>
   <id>https://github.com/297092319/sfj.github.io.git/</id>
   
   <author>
@@ -17,31 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo 添加标签和分类</title>
+    <title>Hexo 踩坑</title>
     <link href="https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/"/>
     <id>https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/</id>
     <published>2018-04-27T15:00:34.000Z</published>
-    <updated>2018-11-12T11:31:32.215Z</updated>
+    <updated>2018-11-13T09:42:13.978Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="这是一篇测试文章"><a href="#这是一篇测试文章" class="headerlink" title="这是一篇测试文章"></a>这是一篇测试文章</h1><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2>]]></content>
+    <content type="html"><![CDATA[<h3 id="hexo-部署到GitHub时报错"><a href="#hexo-部署到GitHub时报错" class="headerlink" title="hexo 部署到GitHub时报错"></a>hexo 部署到GitHub时报错</h3><p><img src="https://s1.ax1x.com/2018/11/13/iObKTs.png" alt="iObKTs.png"></p><h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;这是一篇测试文章&quot;&gt;&lt;a href=&quot;#这是一篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;这是一篇测试文章&quot;&gt;&lt;/a&gt;这是一篇测试文章&lt;/h1&gt;&lt;h2 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot; titl
+        &lt;h3 id=&quot;hexo-部署到GitHub时报错&quot;&gt;&lt;a href=&quot;#hexo-部署到GitHub时报错&quot; class=&quot;headerlink&quot; title=&quot;hexo 部署到GitHub时报错&quot;&gt;&lt;/a&gt;hexo 部署到GitHub时报错&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;
       
     
     </summary>
     
-      <category term="web前端" scheme="https://github.com/297092319/sfj.github.io.git/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="Hexo" scheme="https://github.com/297092319/sfj.github.io.git/categories/Hexo/"/>
     
     
-      <category term="jQuery" scheme="https://github.com/297092319/sfj.github.io.git/tags/jQuery/"/>
+      <category term="hexo报错" scheme="https://github.com/297092319/sfj.github.io.git/tags/hexo%E6%8A%A5%E9%94%99/"/>
     
-      <category term="表格" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E8%A1%A8%E6%A0%BC/"/>
-    
-      <category term="表单验证" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
+      <category term="建站经验" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E5%BB%BA%E7%AB%99%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
