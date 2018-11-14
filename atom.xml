@@ -48,7 +48,7 @@
     <link href="https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/"/>
     <id>https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/</id>
     <published>2018-04-27T15:00:34.000Z</published>
-    <updated>2018-11-13T09:47:19.636Z</updated>
+    <updated>2018-11-14T05:54:10.425Z</updated>
     
     <content type="html"><![CDATA[<h3 id="hexo-部署到GitHub时报错"><a href="#hexo-部署到GitHub时报错" class="headerlink" title="hexo 部署到GitHub时报错"></a>hexo 部署到GitHub时报错</h3><p><img src="https://s1.ax1x.com/2018/11/13/iObKTs.png" alt="iObKTs.png"></p><h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5>]]></content>
     
