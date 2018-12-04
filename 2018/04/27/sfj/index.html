@@ -17,7 +17,7 @@
 <meta property="og:description" content="hexo 部署到GitHub时报错 ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://s1.ax1x.com/2018/11/13/iObKTs.png">
-<meta property="og:updated_time" content="2018-11-14T05:54:10.425Z">
+<meta property="og:updated_time" content="2018-11-15T02:15:13.248Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 踩坑">
 <meta name="twitter:description" content="hexo 部署到GitHub时报错 ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了">
@@ -157,7 +157,7 @@
 <h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5>
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2018年11月14日 13:54</p>
+        <p>最后更新： 2018年11月15日 10:15</p>
         <p>原始链接： <a class="post-url" href="/2018/04/27/sfj/" title="Hexo 踩坑">https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/</a></p>
         <footer>
             <a href="https://github.com/297092319/sfj.github.io.git">
@@ -300,14 +300,20 @@
 
 
     
-        <div id="SOHUCS" sid="sfj"></div>
-<script type="text/javascript">
-    (function(){
-        var appid = 'cytUNt6pI';
-        var conf = 'edb8c04511f43da4a61090a5ddc3c878';
-        var width = window.innerWidth || document.documentElement.clientWidth;
-        if (width < 960) {
-            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+        <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
+    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
+    <script>
+        var gitment = new Gitment({
+            owner: '297092319@qq.com',
+            repo: 'hexo',
+            oauth: {
+                client_id: 'c3ddcd6dafcbc25861d3',
+                client_secret: 'd69f2267d12518a192c6eee62bef1e7a1dfd5aaa',
+            },
+        })
+        gitment.render('comments')
+    </script>
+
     
 </section>
         
