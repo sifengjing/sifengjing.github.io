@@ -5,9 +5,9 @@
   <subtitle>热爱网站建设的前端设计工作者</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/297092319/sfj.github.io.git/"/>
+  <link href="https://www.sitwo.cn/"/>
   <updated>2018-12-06T07:18:46.653Z</updated>
-  <id>https://github.com/297092319/sfj.github.io.git/</id>
+  <id>https://www.sitwo.cn/</id>
   
   <author>
     <name>司徒大官人</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用hexo d 报错</title>
-    <link href="https://github.com/297092319/sfj.github.io.git/2018/11/13/sfj2/"/>
-    <id>https://github.com/297092319/sfj.github.io.git/2018/11/13/sfj2/</id>
+    <link href="https://www.sitwo.cn/2018/11/13/sfj2/"/>
+    <id>https://www.sitwo.cn/2018/11/13/sfj2/</id>
     <published>2018-11-13T09:49:33.000Z</published>
     <updated>2018-12-06T07:18:46.653Z</updated>
     
@@ -34,19 +34,19 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://github.com/297092319/sfj.github.io.git/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://www.sitwo.cn/categories/Hexo/"/>
     
     
-      <category term="hexo报错" scheme="https://github.com/297092319/sfj.github.io.git/tags/hexo%E6%8A%A5%E9%94%99/"/>
+      <category term="hexo报错" scheme="https://www.sitwo.cn/tags/hexo%E6%8A%A5%E9%94%99/"/>
     
-      <category term="建站经验" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E5%BB%BA%E7%AB%99%E7%BB%8F%E9%AA%8C/"/>
+      <category term="建站经验" scheme="https://www.sitwo.cn/tags/%E5%BB%BA%E7%AB%99%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 踩坑</title>
-    <link href="https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/"/>
-    <id>https://github.com/297092319/sfj.github.io.git/2018/04/27/sfj/</id>
+    <link href="https://www.sitwo.cn/2018/04/27/sfj/"/>
+    <id>https://www.sitwo.cn/2018/04/27/sfj/</id>
     <published>2018-04-27T15:00:34.000Z</published>
     <updated>2018-12-06T07:45:36.348Z</updated>
     
@@ -61,12 +61,12 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://github.com/297092319/sfj.github.io.git/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://www.sitwo.cn/categories/Hexo/"/>
     
     
-      <category term="hexo报错" scheme="https://github.com/297092319/sfj.github.io.git/tags/hexo%E6%8A%A5%E9%94%99/"/>
+      <category term="hexo报错" scheme="https://www.sitwo.cn/tags/hexo%E6%8A%A5%E9%94%99/"/>
     
-      <category term="建站经验" scheme="https://github.com/297092319/sfj.github.io.git/tags/%E5%BB%BA%E7%AB%99%E7%BB%8F%E9%AA%8C/"/>
+      <category term="建站经验" scheme="https://www.sitwo.cn/tags/%E5%BB%BA%E7%AB%99%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
