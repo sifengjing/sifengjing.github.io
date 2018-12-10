@@ -1841,7 +1841,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #288eff;
+  background: #3bb9ed;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1974,7 +1974,7 @@ pre .javascript .function {
 .with-love {
   display: inline-block;
   margin: 0 5px;
-  color: #f00;
+  color: #fc6423;
 }
 #animate {
   animation: iconAnimate 1.33s ease-in-out infinite;
