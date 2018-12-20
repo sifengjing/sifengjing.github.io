@@ -6,10 +6,10 @@
 
 
 <html class="theme-next mist use-motion" lang="zh-Hans">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +20,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -40,7 +40,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -48,9 +48,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
@@ -68,30 +68,31 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-  
-
-
-  <link rel="alternate" href="/atom.xml" title="司徒大官人" type="application/atom+xml" />
+  <meta name="keywords" content="jQuery,ajax,">
 
 
 
 
 
+  <link rel="alternate" href="/atom.xml" title="司徒大官人" type="application/atom+xml">
 
-<meta name="keywords" content="WEB前端开发,WEB技术交流,项目分享,经验总结">
-<meta property="og:type" content="website">
-<meta property="og:title" content="司徒大官人">
-<meta property="og:url" content="https://www.sitwo.cn/404.html">
+
+
+
+
+
+<meta name="description" content="最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？">
+<meta name="keywords" content="jQuery,ajax">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何解决前后端分离开发时的跨域问题">
+<meta property="og:url" content="https://www.sitwo.cn/2018/12/12/如何解决前后端分离开发时的跨域问题/index.html">
 <meta property="og:site_name" content="司徒大官人">
+<meta property="og:description" content="最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-10T08:36:42.832Z">
+<meta property="og:updated_time" content="2018-12-12T02:50:30.210Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="司徒大官人">
+<meta name="twitter:title" content="如何解决前后端分离开发时的跨域问题">
+<meta name="twitter:description" content="最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？">
 
 
 
@@ -121,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://www.sitwo.cn/404.html"/>
+  <link rel="canonical" href="https://www.sitwo.cn/2018/12/12/如何解决前后端分离开发时的跨域问题/">
 
 
 
 
 
-  <title> | 司徒大官人</title>
+  <title>如何解决前后端分离开发时的跨域问题 | 司徒大官人</title>
   
 
 
@@ -139,7 +140,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -149,13 +150,13 @@
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">司徒大官人</span>
         <span class="logo-line-after"><i></i></span>
@@ -185,7 +186,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
           </a>
@@ -195,7 +196,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
             
             关于
           </a>
@@ -205,7 +206,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
             标签
           </a>
@@ -215,7 +216,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
             分类
           </a>
@@ -225,7 +226,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
           </a>
@@ -235,7 +236,7 @@
         <li class="menu-item menu-item-commonweal">
           <a href="/404.html" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
             
             公益404
           </a>
@@ -248,7 +249,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
             
             搜索
           </a>
@@ -269,9 +270,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -296,48 +295,238 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.sitwo.cn/2018/12/12/如何解决前后端分离开发时的跨域问题/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="司徒大官人">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/logo.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="司徒大官人">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline"></h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <!DOCTYPE HTML>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta http-equiv="content-type" content="text/html;charset=utf-8;">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="robots" content="all">
-  <meta name="robots" content="index,follow">
-  <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css">
-</head>
-<body>
-  <script type="text/plain" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="/" homepagename="回到我的主页">
-  </script>
-  <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
-  <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>
-</body>
-</html>
+          <h1 class="post-title" itemprop="name headline">如何解决前后端分离开发时的跨域问题</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-12T10:49:04+08:00">
+                2018-12-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/跨域/" itemprop="url" rel="index">
+                    <span itemprop="name">跨域</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/12/12/如何解决前后端分离开发时的跨域问题/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/12/如何解决前后端分离开发时的跨域问题/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？</p>
+<a id="more"></a>
+<h3 id="前台部分"><a href="#前台部分" class="headerlink" title="前台部分"></a>前台部分</h3><p>在前台的ajax请求中需要允许跨域，我使用的是jQuery的ajax函数，具体的设置如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">jQuery.ajax(&#123;</span><br><span class="line">            url : url,</span><br><span class="line">            data: data,</span><br><span class="line">            type : <span class="string">'POST'</span>,</span><br><span class="line">            xhrFields: &#123;</span><br><span class="line">                withCredentials: <span class="literal">true</span></span><br><span class="line">            &#125;,</span><br><span class="line">            dataType:<span class="string">"json"</span>,</span><br><span class="line">            crossDomain: <span class="literal">true</span>,</span><br><span class="line">            success:<span class="function"><span class="keyword">function</span> (<span class="params">result</span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求成功后的操作</span></span><br><span class="line">            &#125;,</span><br><span class="line">            error:<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求失败后的操作</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<h3 id="后台部分"><a href="#后台部分" class="headerlink" title="后台部分"></a>后台部分</h3><p>跨域问题最重要的还是后台部分，后台需要允许来自于其他域的请求，以下是php的解决方案：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">header(<span class="string">"Access-Control-Allow-Credentials: true"</span>); <span class="comment">// 允许跨域访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:123.123.123.123"</span>);    <span class="comment">//允许来自123.123.123.123的ip地址提交访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:*"</span>);    <span class="comment">//允许任何地址的访问</span></span><br></pre></td></tr></table></figure></p>
+<p>其他语言的解决方案大同小异，主要就是在返回头中写上允许跨域访问的域名或IP就行，建议不要使用通配符 * ，这样对服务器来讲并不安全，尽管是在开发过程中。</p>
+<p>在前后台分离的开发过程中还有很多坑，需要我们一个一个去解决，特别是前后台数据交流的部分是很值得多思考的。现在前后台分离开发的模式在越来越多的项目中使用，早早熟悉有利于以后的职业生涯。以后还发现什么坑也会贴上来的(๑•̀ㅂ•́)و✧。</p>
+<p>最后推荐一本书，<a href="http://www.ituring.com.cn/book/1720" target="_blank" rel="noopener">json必知必会</a>，json是前后端交流的信使，熟悉它的用法和应用自然非常重要，最后祝大家学习愉快︿(￣︶￣)︿。</p>
+<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
+
       
     </div>
     
     
     
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="司徒大官人 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="司徒大官人 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/jQuery/" rel="tag"># jQuery</a>
+          
+            <a href="/tags/ajax/" rel="tag"># ajax</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/12/你不知道的JSON/" rel="next" title="你不知道的JSON">
+                <i class="fa fa-chevron-left"></i> 你不知道的JSON
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/12/用canvas制作一个简单的随机验证码/" rel="prev" title="用canvas制作一个简单的随机验证码">
+                用canvas制作一个简单的随机验证码 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -373,14 +562,21 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image"
-                src="/images/logo.png"
-                alt="司徒大官人" />
+              <img class="site-author-image" itemprop="image" src="/images/logo.png" alt="司徒大官人">
             
               <p class="site-author-name" itemprop="name">司徒大官人</p>
               <p class="site-description motion-element" itemprop="description">专注WEB开发的技术博客！</p>
@@ -479,6 +675,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前台部分"><span class="nav-number">1.</span> <span class="nav-text">前台部分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#后台部分"><span class="nav-number">2.</span> <span class="nav-text">后台部分</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
