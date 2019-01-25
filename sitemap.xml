@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.sitwo.cn/about/index.html</loc>
+    
+    <lastmod>2019-01-24T11:12:53.605Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.sitwo.cn/2018/12/12/%E7%82%AB%E9%85%B7%E7%9A%84Canvas%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/</loc>
     
     <lastmod>2018-12-12T03:05:47.647Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://www.sitwo.cn/2018/12/12/%E9%AB%98%E6%80%A7%E8%83%BDJavaScript/</loc>
     
     <lastmod>2018-12-12T02:32:10.702Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.sitwo.cn/about/index.html</loc>
-    
-    <lastmod>2018-12-12T01:13:17.770Z</lastmod>
     
   </url>
   
