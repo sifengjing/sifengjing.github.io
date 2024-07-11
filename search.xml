@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo 踩坑</title>
+    <url>/2018/04/27/Hexo%20%E8%B8%A9%E5%9D%91/</url>
+    <content><![CDATA[<h3 id="hexo-部署到GitHub时报错"><a href="#hexo-部署到GitHub时报错" class="headerlink" title="hexo 部署到GitHub时报错"></a>hexo 部署到GitHub时报错</h3><p><img src="https://s1.ax1x.com/2018/11/13/iObKTs.png" alt="iObKTs.png"></p>
+<h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5><p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo报错</tag>
+        <tag>建站经验</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdowwn应用范围及语法规范</title>
     <url>/2018/12/11/Markdowwn%E5%BA%94%E7%94%A8%E8%8C%83%E5%9B%B4%E5%8F%8A%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h1 id="Markdown应用范围及语法规范"><a href="#Markdown应用范围及语法规范" class="headerlink" title="Markdown应用范围及语法规范"></a>Markdown应用范围及语法规范</h1><hr>
@@ -51,10 +65,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 踩坑</title>
-    <url>/2018/04/27/Hexo%20%E8%B8%A9%E5%9D%91/</url>
-    <content><![CDATA[<h3 id="hexo-部署到GitHub时报错"><a href="#hexo-部署到GitHub时报错" class="headerlink" title="hexo 部署到GitHub时报错"></a>hexo 部署到GitHub时报错</h3><p><img src="https://s1.ax1x.com/2018/11/13/iObKTs.png" alt="iObKTs.png"></p>
-<h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5><p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
+    <title>使用hexo d 报错</title>
+    <url>/2018/11/13/%E4%BD%BF%E7%94%A8hexo%20d%20%E6%8A%A5%E9%94%99/</url>
+    <content><![CDATA[<h3 id="使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>使用hexo d 提示You should configure deployment settings in _config.yml first!</h3><h5 id="问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!</h5><h5 id="Available-deployer-plugins"><a href="#Available-deployer-plugins" class="headerlink" title="Available deployer plugins:"></a>Available deployer plugins:</h5><h5 id="git"><a href="#git" class="headerlink" title="git"></a>git</h5><h5 id="For-more-help-you-can-check-the-online-docs-http-hexo-io"><a href="#For-more-help-you-can-check-the-online-docs-http-hexo-io" class="headerlink" title="For more help, you can check the online docs: http://hexo.io/"></a>For more help, you can check the online docs: <a href="http://hexo.io/" target="_blank" rel="noopener">http://hexo.io/</a></h5><h3 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题:"></a>解决问题:</h3><h5 id="1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装"><a href="#1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装" class="headerlink" title="1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装"></a>1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装</h5><h5 id="2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。"><a href="#2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。" class="headerlink" title="2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。"></a>2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。</h5><h5 id="以下为正确的写法-图片"><a href="#以下为正确的写法-图片" class="headerlink" title="以下为正确的写法(图片):"></a>以下为正确的写法(图片):</h5><p><img src="https://s1.ax1x.com/2018/11/13/iObz90.jpg" alt="iObz90.jpg"></p>
+<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
 ]]></content>
       <categories>
         <category>Hexo</category>
@@ -87,20 +101,6 @@
       <tags>
         <tag>web开发</tag>
         <tag>经验总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用hexo d 报错</title>
-    <url>/2018/11/13/%E4%BD%BF%E7%94%A8hexo%20d%20%E6%8A%A5%E9%94%99/</url>
-    <content><![CDATA[<h3 id="使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>使用hexo d 提示You should configure deployment settings in _config.yml first!</h3><h5 id="问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!</h5><h5 id="Available-deployer-plugins"><a href="#Available-deployer-plugins" class="headerlink" title="Available deployer plugins:"></a>Available deployer plugins:</h5><h5 id="git"><a href="#git" class="headerlink" title="git"></a>git</h5><h5 id="For-more-help-you-can-check-the-online-docs-http-hexo-io"><a href="#For-more-help-you-can-check-the-online-docs-http-hexo-io" class="headerlink" title="For more help, you can check the online docs: http://hexo.io/"></a>For more help, you can check the online docs: <a href="http://hexo.io/" target="_blank" rel="noopener">http://hexo.io/</a></h5><h3 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题:"></a>解决问题:</h3><h5 id="1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装"><a href="#1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装" class="headerlink" title="1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装"></a>1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装</h5><h5 id="2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。"><a href="#2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。" class="headerlink" title="2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。"></a>2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。</h5><h5 id="以下为正确的写法-图片"><a href="#以下为正确的写法-图片" class="headerlink" title="以下为正确的写法(图片):"></a>以下为正确的写法(图片):</h5><p><img src="https://s1.ax1x.com/2018/11/13/iObz90.jpg" alt="iObz90.jpg"></p>
-<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo报错</tag>
-        <tag>建站经验</tag>
       </tags>
   </entry>
   <entry>
@@ -343,6 +343,79 @@
       </tags>
   </entry>
   <entry>
+    <title>如何解决前后端分离开发时的跨域问题</title>
+    <url>/2018/12/12/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？</p>
+<a id="more"></a>
+<h3 id="前台部分"><a href="#前台部分" class="headerlink" title="前台部分"></a>前台部分</h3><p>在前台的ajax请求中需要允许跨域，我使用的是jQuery的ajax函数，具体的设置如下：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">jQuery.ajax(&#123;</span><br><span class="line">            url : url,</span><br><span class="line">            data: data,</span><br><span class="line">            type : <span class="string">'POST'</span>,</span><br><span class="line">            xhrFields: &#123;</span><br><span class="line">                withCredentials: <span class="literal">true</span></span><br><span class="line">            &#125;,</span><br><span class="line">            dataType:<span class="string">"json"</span>,</span><br><span class="line">            crossDomain: <span class="literal">true</span>,</span><br><span class="line">            success:<span class="function"><span class="keyword">function</span> (<span class="params">result</span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求成功后的操作</span></span><br><span class="line">            &#125;,</span><br><span class="line">            error:<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求失败后的操作</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<h3 id="后台部分"><a href="#后台部分" class="headerlink" title="后台部分"></a>后台部分</h3><p>跨域问题最重要的还是后台部分，后台需要允许来自于其他域的请求，以下是php的解决方案：<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">header(<span class="string">"Access-Control-Allow-Credentials: true"</span>); <span class="comment">// 允许跨域访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:123.123.123.123"</span>);    <span class="comment">//允许来自123.123.123.123的ip地址提交访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:*"</span>);    <span class="comment">//允许任何地址的访问</span></span><br></pre></td></tr></table></figure></p>
+<p>其他语言的解决方案大同小异，主要就是在返回头中写上允许跨域访问的域名或IP就行，建议不要使用通配符 * ，这样对服务器来讲并不安全，尽管是在开发过程中。</p>
+<p>在前后台分离的开发过程中还有很多坑，需要我们一个一个去解决，特别是前后台数据交流的部分是很值得多思考的。现在前后台分离开发的模式在越来越多的项目中使用，早早熟悉有利于以后的职业生涯。以后还发现什么坑也会贴上来的(๑•̀ㅂ•́)و✧。</p>
+<p>最后推荐一本书，<a href="http://www.ituring.com.cn/book/1720" target="_blank" rel="noopener">json必知必会</a>，json是前后端交流的信使，熟悉它的用法和应用自然非常重要，最后祝大家学习愉快︿(￣︶￣)︿。</p>
+<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>跨域</category>
+      </categories>
+      <tags>
+        <tag>jQuery</tag>
+        <tag>ajax</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>炫酷的Canvas粒子特效</title>
+    <url>/2018/12/12/%E7%82%AB%E9%85%B7%E7%9A%84Canvas%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/</url>
+    <content><![CDATA[<p>随着html5<code>Canvas</code>元素的推出呢，现在的浏览器具备了更强大的绘制图像的功能，甚至<code>canvas</code>已经可以用来制作大型网页游戏，关于<code>Canvas</code>的js库也越来越多，有动画库还有图表库比如Echart等等。今天我就要给大家推荐两款非常炫酷的<code>Canvas</code>粒子特效，let’s hit the road!</p>
+<h3 id="Particleground粒子背景"><a href="#Particleground粒子背景" class="headerlink" title="Particleground粒子背景"></a>Particleground粒子背景</h3><p>articleground是一款时髦的jquery粒子系统背景插件，PC端可通过鼠标控制视差效果，而移动端可用重力感应控制，Particleground可以运行在任何支持html5 canvas的浏览器上。</p>
+<p>大家可以先<a href="http://jnicol.github.io/particleground/" target="_blank" rel="noopener">看看效果</a>。</p>
+<p>怎么样是不是很炫酷！！那么要使用这个特效也是非常的简单。</p>
+<p>首先放上项目的<a href="https://github.com/jnicol/particleground" target="_blank" rel="noopener">github地址</a>。把代码clone下来到本地。然后引入它。<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span> <span class="attr">src</span>=<span class="string">'jquery-3.0.0.min.js'</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span> <span class="attr">src</span>=<span class="string">'jquery.particleground.min.js'</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>注意这个组件是基于jQuery的，所以在你也需要引入JQuery文件。</p>
+<p>然后在html里面添加一个Canvas容器：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"particles"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>最后在js中将它初始化：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="string">'#particles'</span>).particleground();</span><br></pre></td></tr></table></figure></p>
+<p>这样你的设置就完成了</p>
+<p>当然你也可以设置参数：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="string">'#particles'</span>).particleground(&#123;</span><br><span class="line">dotColor: <span class="string">'#ff0000'</span>,    <span class="comment">// 点的颜色</span></span><br><span class="line">lineColor: <span class="string">'#ff0000'</span>   <span class="comment">//  线的颜色</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>更多具体的参数请参阅官方文档。</p>
+<h3 id="canvas-nest-js粒子背景"><a href="#canvas-nest-js粒子背景" class="headerlink" title="canvas-nest.js粒子背景"></a>canvas-nest.js粒子背景</h3><p>接下来是另一款粒子背景，它和上面的 Particleground 有些不一样，粒子并不是随机分散的而是聚集在鼠标的周围，这样可以很清除的反应鼠标的位置。</p>
+<p><a href="http://www.atool.org/" target="_blank" rel="noopener">在这里</a>查看背景预览。</p>
+<p>使用这款组件非常的容易，只需要在你的页面中加入这段代码即可（注意要放在body里面）<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>是不是异常的简单！！</p>
+<p>当然你也可以下载文件到本地，<a href="https://github.com/hustcc/canvas-nest.js" target="_blank" rel="noopener">这里</a>是项目的地址。</p>
+<p>同样的你可以设置动画参数，只需要在script标签里面添加就行了，像这样：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">color</span>=<span class="string">"0,0,255"</span> <span class="attr">opacity</span>=<span class="string">'0.7'</span> <span class="attr">zIndex</span>=<span class="string">"-2"</span> <span class="attr">count</span>=<span class="string">"99"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>上面的参数分别是线条颜色、线条透明度、z轴值、以及粒子个数。</p>
+<p>更多的参数请参阅项目文档。</p>
+<p>要提醒一点的是，不管你使用哪个组件，不要将粒子的数量设置得太多，这样浏览器的性能会跟不上，毕竟图像绘制还是很吃性能的，浏览器甚至还会崩溃卡死。</p>
+<p>好了，就介绍到这里了，祝各位小伙伴玩得愉快哦。</p>
+<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>HTML5</category>
+      </categories>
+      <tags>
+        <tag>经验总结</tag>
+        <tag>Canvas</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用canvas制作一个简单的随机验证码</title>
+    <url>/2018/12/12/%E7%94%A8canvas%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9A%8F%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81/</url>
+    <content><![CDATA[<p>现在验证码在网页表单中几乎是标配，用来防止机器人攻击网站，今天我们就用canvas和js来写一个简单的随机二维码。<br><a id="more"></a></p>
+<h4 id="制作思路"><a href="#制作思路" class="headerlink" title="制作思路"></a>制作思路</h4><p>大家知道canvas是HTML5里面的新特性，可以用来绘图，配合js可以绘制出各种各样的图案。验证码一般由数字或字母组成，再加上一些视觉干扰的元素，防止机器人识别。而canvas可以绘制文字及线条，还可以做一些旋转处理，利用这些特性我们就可以做出一个简单的随机验证码。</p>
+<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">"200"</span> <span class="attr">height</span>=<span class="string">"30"</span> <span class="attr">id</span>=<span class="string">"myCanvas"</span>&gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">""</span> <span class="attr">placeholder</span>=<span class="string">"请输入验证码"</span> <span class="attr">id</span>=<span class="string">"input"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">"check()"</span>&gt;</span>验证<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> c=<span class="built_in">document</span>.getElementById(<span class="string">"myCanvas"</span>);</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> ctx=c.getContext(<span class="string">"2d"</span>);</span></span><br><span class="line"><span class="javascript">	ctx.fillStyle=<span class="string">"#BFEFFF"</span>;<span class="comment">//绘制背景颜色</span></span></span><br><span class="line">	ctx.fillRect(0,0,160,30);</span><br><span class="line"></span><br><span class="line"><span class="javascript">	<span class="comment">//随机产生4个字符</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> chars = [];</span></span><br><span class="line"><span class="javascript">	<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>;i &lt; <span class="number">4</span>;i++)&#123;</span></span><br><span class="line"><span class="javascript">		chars.push(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*<span class="number">9</span>).toString());</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="javascript">	ctx.font=<span class="string">"20px Verdana"</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> x = <span class="number">15</span>;</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> colors = [<span class="string">'red'</span>,<span class="string">'yellow'</span>,<span class="string">'blue'</span>,<span class="string">'green'</span>,<span class="string">'pink'</span>,<span class="string">'black'</span>];</span></span><br><span class="line"><span class="javascript">	<span class="comment">//绘制4个字符</span></span></span><br><span class="line">	for(i = 0;i &lt; 4;i++)&#123;</span><br><span class="line"><span class="javascript">		ctx.fillStyle = colors[<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*<span class="number">5</span>)];</span></span><br><span class="line">		ctx.fillText(chars[i],x,25);</span><br><span class="line">		x = x + 40;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="javascript">	<span class="comment">//对图案随机加入线条造成干扰</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> lineNumber = <span class="number">5</span>; <span class="comment">// 线条条数</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> lineX = <span class="number">160</span>;</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> lineY = <span class="number">30</span>;  <span class="comment">// 最大线条坐标</span></span></span><br><span class="line">	for(i = 0;i &lt; lineNumber;i++)&#123;</span><br><span class="line"><span class="javascript">		ctx.strokeStyle = colors[<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*<span class="number">5</span>)];</span></span><br><span class="line">		ctx.beginPath();</span><br><span class="line"><span class="javascript">		ctx.moveTo(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineX),<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineY));</span></span><br><span class="line"><span class="javascript">		ctx.lineTo(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineX),<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineY));</span></span><br><span class="line">		ctx.stroke();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="javascript">    <span class="comment">// 点击按钮验证</span></span></span><br><span class="line"><span class="javascript">	<span class="function"><span class="keyword">function</span> <span class="title">check</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">var</span> input = <span class="built_in">document</span>.getElementById(<span class="string">'input'</span>).value;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">if</span>(input === chars.join(<span class="string">''</span>))&#123;</span></span><br><span class="line"><span class="javascript">			alert(<span class="string">"验证成功"</span>);</span></span><br><span class="line">		&#125;</span><br><span class="line"><span class="javascript">		<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="javascript">			alert(<span class="string">'验证失败'</span>);</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>最后的效果：（每一次刷新后的图案都是随机的）<br><img src="https://s1.ax1x.com/2018/12/12/FY5hCt.png" alt="最后效果"></p>
+<p>当然这里使用的是数字，你也可使用字母或数字字母混用。在干扰方面，你还可以加上旋转，缩放，虚化等等，这些效果用canvas同样可以实现。</p>
+<p>以上。</p>
+<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>HTML5</category>
+      </categories>
+      <tags>
+        <tag>经验总结</tag>
+        <tag>canvas</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>流行语遇见文言文</title>
     <url>/2018/12/11/%E6%B5%81%E8%A1%8C%E8%AF%AD%E9%81%87%E8%A7%81%E6%96%87%E8%A8%80%E6%96%87/</url>
     <content><![CDATA[<h3 id="现在的流行语翻译成文言文是什么感觉？下方高能，不要太惊艳！"><a href="#现在的流行语翻译成文言文是什么感觉？下方高能，不要太惊艳！" class="headerlink" title="现在的流行语翻译成文言文是什么感觉？下方高能，不要太惊艳！"></a>现在的流行语翻译成文言文是什么感觉？下方高能，不要太惊艳！</h3><p><img src="https://image-static.segmentfault.com/256/922/2569224046-5c0f46af21e39_articlex" alt="clipboard.png"></p>
@@ -391,60 +464,6 @@
       <tags>
         <tag>流行语</tag>
         <tag>文化碰撞</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>炫酷的Canvas粒子特效</title>
-    <url>/2018/12/12/%E7%82%AB%E9%85%B7%E7%9A%84Canvas%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/</url>
-    <content><![CDATA[<p>随着html5<code>Canvas</code>元素的推出呢，现在的浏览器具备了更强大的绘制图像的功能，甚至<code>canvas</code>已经可以用来制作大型网页游戏，关于<code>Canvas</code>的js库也越来越多，有动画库还有图表库比如Echart等等。今天我就要给大家推荐两款非常炫酷的<code>Canvas</code>粒子特效，let’s hit the road!</p>
-<h3 id="Particleground粒子背景"><a href="#Particleground粒子背景" class="headerlink" title="Particleground粒子背景"></a>Particleground粒子背景</h3><p>articleground是一款时髦的jquery粒子系统背景插件，PC端可通过鼠标控制视差效果，而移动端可用重力感应控制，Particleground可以运行在任何支持html5 canvas的浏览器上。</p>
-<p>大家可以先<a href="http://jnicol.github.io/particleground/" target="_blank" rel="noopener">看看效果</a>。</p>
-<p>怎么样是不是很炫酷！！那么要使用这个特效也是非常的简单。</p>
-<p>首先放上项目的<a href="https://github.com/jnicol/particleground" target="_blank" rel="noopener">github地址</a>。把代码clone下来到本地。然后引入它。<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span> <span class="attr">src</span>=<span class="string">'jquery-3.0.0.min.js'</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span> <span class="attr">src</span>=<span class="string">'jquery.particleground.min.js'</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>注意这个组件是基于jQuery的，所以在你也需要引入JQuery文件。</p>
-<p>然后在html里面添加一个Canvas容器：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"particles"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>最后在js中将它初始化：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="string">'#particles'</span>).particleground();</span><br></pre></td></tr></table></figure></p>
-<p>这样你的设置就完成了</p>
-<p>当然你也可以设置参数：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="string">'#particles'</span>).particleground(&#123;</span><br><span class="line">dotColor: <span class="string">'#ff0000'</span>,    <span class="comment">// 点的颜色</span></span><br><span class="line">lineColor: <span class="string">'#ff0000'</span>   <span class="comment">//  线的颜色</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>更多具体的参数请参阅官方文档。</p>
-<h3 id="canvas-nest-js粒子背景"><a href="#canvas-nest-js粒子背景" class="headerlink" title="canvas-nest.js粒子背景"></a>canvas-nest.js粒子背景</h3><p>接下来是另一款粒子背景，它和上面的 Particleground 有些不一样，粒子并不是随机分散的而是聚集在鼠标的周围，这样可以很清除的反应鼠标的位置。</p>
-<p><a href="http://www.atool.org/" target="_blank" rel="noopener">在这里</a>查看背景预览。</p>
-<p>使用这款组件非常的容易，只需要在你的页面中加入这段代码即可（注意要放在body里面）<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>是不是异常的简单！！</p>
-<p>当然你也可以下载文件到本地，<a href="https://github.com/hustcc/canvas-nest.js" target="_blank" rel="noopener">这里</a>是项目的地址。</p>
-<p>同样的你可以设置动画参数，只需要在script标签里面添加就行了，像这样：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">color</span>=<span class="string">"0,0,255"</span> <span class="attr">opacity</span>=<span class="string">'0.7'</span> <span class="attr">zIndex</span>=<span class="string">"-2"</span> <span class="attr">count</span>=<span class="string">"99"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>上面的参数分别是线条颜色、线条透明度、z轴值、以及粒子个数。</p>
-<p>更多的参数请参阅项目文档。</p>
-<p>要提醒一点的是，不管你使用哪个组件，不要将粒子的数量设置得太多，这样浏览器的性能会跟不上，毕竟图像绘制还是很吃性能的，浏览器甚至还会崩溃卡死。</p>
-<p>好了，就介绍到这里了，祝各位小伙伴玩得愉快哦。</p>
-<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>HTML5</category>
-      </categories>
-      <tags>
-        <tag>经验总结</tag>
-        <tag>Canvas</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何解决前后端分离开发时的跨域问题</title>
-    <url>/2018/12/12/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？</p>
-<a id="more"></a>
-<h3 id="前台部分"><a href="#前台部分" class="headerlink" title="前台部分"></a>前台部分</h3><p>在前台的ajax请求中需要允许跨域，我使用的是jQuery的ajax函数，具体的设置如下：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">jQuery.ajax(&#123;</span><br><span class="line">            url : url,</span><br><span class="line">            data: data,</span><br><span class="line">            type : <span class="string">'POST'</span>,</span><br><span class="line">            xhrFields: &#123;</span><br><span class="line">                withCredentials: <span class="literal">true</span></span><br><span class="line">            &#125;,</span><br><span class="line">            dataType:<span class="string">"json"</span>,</span><br><span class="line">            crossDomain: <span class="literal">true</span>,</span><br><span class="line">            success:<span class="function"><span class="keyword">function</span> (<span class="params">result</span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求成功后的操作</span></span><br><span class="line">            &#125;,</span><br><span class="line">            error:<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求失败后的操作</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
-<h3 id="后台部分"><a href="#后台部分" class="headerlink" title="后台部分"></a>后台部分</h3><p>跨域问题最重要的还是后台部分，后台需要允许来自于其他域的请求，以下是php的解决方案：<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">header(<span class="string">"Access-Control-Allow-Credentials: true"</span>); <span class="comment">// 允许跨域访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:123.123.123.123"</span>);    <span class="comment">//允许来自123.123.123.123的ip地址提交访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:*"</span>);    <span class="comment">//允许任何地址的访问</span></span><br></pre></td></tr></table></figure></p>
-<p>其他语言的解决方案大同小异，主要就是在返回头中写上允许跨域访问的域名或IP就行，建议不要使用通配符 * ，这样对服务器来讲并不安全，尽管是在开发过程中。</p>
-<p>在前后台分离的开发过程中还有很多坑，需要我们一个一个去解决，特别是前后台数据交流的部分是很值得多思考的。现在前后台分离开发的模式在越来越多的项目中使用，早早熟悉有利于以后的职业生涯。以后还发现什么坑也会贴上来的(๑•̀ㅂ•́)و✧。</p>
-<p>最后推荐一本书，<a href="http://www.ituring.com.cn/book/1720" target="_blank" rel="noopener">json必知必会</a>，json是前后端交流的信使，熟悉它的用法和应用自然非常重要，最后祝大家学习愉快︿(￣︶￣)︿。</p>
-<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>跨域</category>
-      </categories>
-      <tags>
-        <tag>jQuery</tag>
-        <tag>ajax</tag>
       </tags>
   </entry>
   <entry>
@@ -559,25 +578,6 @@
       </categories>
       <tags>
         <tag>web开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用canvas制作一个简单的随机验证码</title>
-    <url>/2018/12/12/%E7%94%A8canvas%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9A%8F%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81/</url>
-    <content><![CDATA[<p>现在验证码在网页表单中几乎是标配，用来防止机器人攻击网站，今天我们就用canvas和js来写一个简单的随机二维码。<br><a id="more"></a></p>
-<h4 id="制作思路"><a href="#制作思路" class="headerlink" title="制作思路"></a>制作思路</h4><p>大家知道canvas是HTML5里面的新特性，可以用来绘图，配合js可以绘制出各种各样的图案。验证码一般由数字或字母组成，再加上一些视觉干扰的元素，防止机器人识别。而canvas可以绘制文字及线条，还可以做一些旋转处理，利用这些特性我们就可以做出一个简单的随机验证码。</p>
-<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">"200"</span> <span class="attr">height</span>=<span class="string">"30"</span> <span class="attr">id</span>=<span class="string">"myCanvas"</span>&gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">""</span> <span class="attr">placeholder</span>=<span class="string">"请输入验证码"</span> <span class="attr">id</span>=<span class="string">"input"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">"check()"</span>&gt;</span>验证<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> c=<span class="built_in">document</span>.getElementById(<span class="string">"myCanvas"</span>);</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> ctx=c.getContext(<span class="string">"2d"</span>);</span></span><br><span class="line"><span class="javascript">	ctx.fillStyle=<span class="string">"#BFEFFF"</span>;<span class="comment">//绘制背景颜色</span></span></span><br><span class="line">	ctx.fillRect(0,0,160,30);</span><br><span class="line"></span><br><span class="line"><span class="javascript">	<span class="comment">//随机产生4个字符</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> chars = [];</span></span><br><span class="line"><span class="javascript">	<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>;i &lt; <span class="number">4</span>;i++)&#123;</span></span><br><span class="line"><span class="javascript">		chars.push(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*<span class="number">9</span>).toString());</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="javascript">	ctx.font=<span class="string">"20px Verdana"</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> x = <span class="number">15</span>;</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> colors = [<span class="string">'red'</span>,<span class="string">'yellow'</span>,<span class="string">'blue'</span>,<span class="string">'green'</span>,<span class="string">'pink'</span>,<span class="string">'black'</span>];</span></span><br><span class="line"><span class="javascript">	<span class="comment">//绘制4个字符</span></span></span><br><span class="line">	for(i = 0;i &lt; 4;i++)&#123;</span><br><span class="line"><span class="javascript">		ctx.fillStyle = colors[<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*<span class="number">5</span>)];</span></span><br><span class="line">		ctx.fillText(chars[i],x,25);</span><br><span class="line">		x = x + 40;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="javascript">	<span class="comment">//对图案随机加入线条造成干扰</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> lineNumber = <span class="number">5</span>; <span class="comment">// 线条条数</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> lineX = <span class="number">160</span>;</span></span><br><span class="line"><span class="javascript">	<span class="keyword">var</span> lineY = <span class="number">30</span>;  <span class="comment">// 最大线条坐标</span></span></span><br><span class="line">	for(i = 0;i &lt; lineNumber;i++)&#123;</span><br><span class="line"><span class="javascript">		ctx.strokeStyle = colors[<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*<span class="number">5</span>)];</span></span><br><span class="line">		ctx.beginPath();</span><br><span class="line"><span class="javascript">		ctx.moveTo(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineX),<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineY));</span></span><br><span class="line"><span class="javascript">		ctx.lineTo(<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineX),<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*lineY));</span></span><br><span class="line">		ctx.stroke();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="javascript">    <span class="comment">// 点击按钮验证</span></span></span><br><span class="line"><span class="javascript">	<span class="function"><span class="keyword">function</span> <span class="title">check</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">var</span> input = <span class="built_in">document</span>.getElementById(<span class="string">'input'</span>).value;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">if</span>(input === chars.join(<span class="string">''</span>))&#123;</span></span><br><span class="line"><span class="javascript">			alert(<span class="string">"验证成功"</span>);</span></span><br><span class="line">		&#125;</span><br><span class="line"><span class="javascript">		<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="javascript">			alert(<span class="string">'验证失败'</span>);</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>最后的效果：（每一次刷新后的图案都是随机的）<br><img src="https://s1.ax1x.com/2018/12/12/FY5hCt.png" alt="最后效果"></p>
-<p>当然这里使用的是数字，你也可使用字母或数字字母混用。在干扰方面，你还可以加上旋转，缩放，虚化等等，这些效果用canvas同样可以实现。</p>
-<p>以上。</p>
-<p>作者：<a href="https://www.sitwo.cn/">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>HTML5</category>
-      </categories>
-      <tags>
-        <tag>经验总结</tag>
-        <tag>canvas</tag>
       </tags>
   </entry>
 </search>
