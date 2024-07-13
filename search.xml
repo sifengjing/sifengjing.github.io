@@ -1,47 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo换电脑如何恢复上线</title>
-    <url>/2024/07/11/hexo%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E6%81%A2%E5%A4%8D%E4%B8%8A%E7%BA%BF/</url>
-    <content><![CDATA[<h2 id="1-将打包的hexo在本地正常启动"><a href="#1-将打包的hexo在本地正常启动" class="headerlink" title="1.将打包的hexo在本地正常启动"></a>1.将打包的hexo在本地正常启动</h2><p>正常启动后访问：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean ##清理缓存</span><br><span class="line">hexo g ##生成静态文件</span><br><span class="line">hexo s ##启动项目</span><br><span class="line">hexo d ##上传GitHub</span><br></pre></td></tr></table></figure></p>
-<h2 id="2-node-js安装适用hexo的版本"><a href="#2-node-js安装适用hexo的版本" class="headerlink" title="2.node.js安装适用hexo的版本"></a>2.node.js安装适用hexo的版本</h2><p>具体版本访问<a href="官网">hexo官网文档</a></p>
-<h2 id="3-就是将本地正常项目上传到GitHub"><a href="#3-就是将本地正常项目上传到GitHub" class="headerlink" title="3.就是将本地正常项目上传到GitHub"></a>3.就是将本地正常项目上传到GitHub</h2><p>下载 Git for Windows <a href="https://gitforwindows.org/" target="_blank" rel="noopener">地址</a><br><strong>1. 生成.ssh密钥</strong>：可以使用 Git for Windows 提供的 ssh-keygen 工具来生成它们.<br><strong>2. 检查是否已有 SSH 密钥</strong>：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ls -al ~/.ssh</span><br></pre></td></tr></table></figure></p>
-<p>如果看到 id_rsa 和 id_rsa.pub，那么您已经有了 SSH 密钥。<br><strong>3. 将公钥添加到 GitHub</strong><br><img src="https://s3.bmp.ovh/imgs/2024/07/12/c85a11ba5229f251.png" alt></p>
-<ul>
-<li>登录到您的 GitHub 账户。</li>
-<li>点击右上角的用户头像，选择 “Settings”（设置）。</li>
-<li>在侧边栏中点击 “SSH and GPG keys”（SSH 和 GPG 密钥）。</li>
-<li>点击 “New SSH key”（新建 SSH 密钥）按钮。</li>
-<li>在 “Title”（标题）字段中，输入一个描述性名称，例如 “My Windows PC”。</li>
-<li>在 “Key”（密钥）字段中，粘贴您刚才复制的公钥内容。</li>
-<li>点击 “Add SSH key”（添加 SSH 密钥）按钮。</li>
-</ul>
-<h2 id="4-在-Git-Bash-中，使用以下命令测试与-GitHub-的-SSH-连接："><a href="#4-在-Git-Bash-中，使用以下命令测试与-GitHub-的-SSH-连接：" class="headerlink" title="4. 在 Git Bash 中，使用以下命令测试与 GitHub 的 SSH 连接："></a>4. 在 Git Bash 中，使用以下命令测试与 GitHub 的 SSH 连接：</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p>如果连接成功，您应该会看到一条欢迎消息。</p>
-<h2 id="5-本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件"><a href="#5-本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件" class="headerlink" title="5. 本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件"></a>5. 本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件</h2><p> 创建后默认自动启用 HTTPS，博客地址为：https://用户名.github.io</p>
-]]></content>
-      <categories>
-        <category>-hexo</category>
-      </categories>
-      <tags>
-        <tag>-经验总结 -建站经验</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo 踩坑</title>
-    <url>/2018/04/27/Hexo%20%E8%B8%A9%E5%9D%91/</url>
-    <content><![CDATA[<h3 id="hexo-部署到GitHub时报错"><a href="#hexo-部署到GitHub时报错" class="headerlink" title="hexo 部署到GitHub时报错"></a>hexo 部署到GitHub时报错</h3><p><img src="https://s1.ax1x.com/2018/11/13/iObKTs.png" alt="iObKTs.png"></p>
-<h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5><p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo报错</tag>
-        <tag>建站经验</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdowwn应用范围及语法规范</title>
     <url>/2018/12/11/Markdowwn%E5%BA%94%E7%94%A8%E8%8C%83%E5%9B%B4%E5%8F%8A%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h1 id="Markdown应用范围及语法规范"><a href="#Markdown应用范围及语法规范" class="headerlink" title="Markdown应用范围及语法规范"></a>Markdown应用范围及语法规范</h1><hr>
@@ -72,6 +31,64 @@
       <tags>
         <tag>标记语言</tag>
         <tag>Markdown语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 踩坑</title>
+    <url>/2018/04/27/Hexo%20%E8%B8%A9%E5%9D%91/</url>
+    <content><![CDATA[<h3 id="hexo-部署到GitHub时报错"><a href="#hexo-部署到GitHub时报错" class="headerlink" title="hexo 部署到GitHub时报错"></a>hexo 部署到GitHub时报错</h3><p><img src="https://s1.ax1x.com/2018/11/13/iObKTs.png" alt="iObKTs.png"></p>
+<h5 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h5><h5 id="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了"><a href="#折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia-Shanghai就解决了" class="headerlink" title="折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了"></a>折腾了半天发现原来站点的配置文件的timezone也就是时区必须要和主题的的配置文件一直，把这两个文件下的timezone都设为Asia/Shanghai就解决了</h5><p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo报错</tag>
+        <tag>建站经验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo换电脑如何恢复上线</title>
+    <url>/2024/07/11/hexo%E6%8D%A2%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E6%81%A2%E5%A4%8D%E4%B8%8A%E7%BA%BF/</url>
+    <content><![CDATA[<h2 id="1-将打包的hexo在本地正常启动"><a href="#1-将打包的hexo在本地正常启动" class="headerlink" title="1.将打包的hexo在本地正常启动"></a>1.将打包的hexo在本地正常启动</h2><p>正常启动后访问：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean ##清理缓存</span><br><span class="line">hexo g ##生成静态文件</span><br><span class="line">hexo s ##启动项目</span><br><span class="line">hexo d ##上传GitHub</span><br></pre></td></tr></table></figure></p>
+<h2 id="2-node-js安装适用hexo的版本"><a href="#2-node-js安装适用hexo的版本" class="headerlink" title="2.node.js安装适用hexo的版本"></a>2.node.js安装适用hexo的版本</h2><p>具体版本访问<a href="官网">hexo官网文档</a></p>
+<h2 id="3-就是将本地正常项目上传到GitHub"><a href="#3-就是将本地正常项目上传到GitHub" class="headerlink" title="3.就是将本地正常项目上传到GitHub"></a>3.就是将本地正常项目上传到GitHub</h2><p>下载 Git for Windows <a href="https://gitforwindows.org/" target="_blank" rel="noopener">地址</a><br><strong>1. 生成.ssh密钥</strong>：可以使用 Git for Windows 提供的 ssh-keygen 工具来生成它们.<br><strong>2. 检查是否已有 SSH 密钥</strong>：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ls -al ~/.ssh</span><br></pre></td></tr></table></figure></p>
+<p>如果看到 id_rsa 和 id_rsa.pub，那么您已经有了 SSH 密钥。<br><strong>3. 将公钥添加到 GitHub</strong><br><img src="https://s3.bmp.ovh/imgs/2024/07/12/c85a11ba5229f251.png" alt></p>
+<ul>
+<li>登录到您的 GitHub 账户。</li>
+<li>点击右上角的用户头像，选择 “Settings”（设置）。</li>
+<li>在侧边栏中点击 “SSH and GPG keys”（SSH 和 GPG 密钥）。</li>
+<li>点击 “New SSH key”（新建 SSH 密钥）按钮。</li>
+<li>在 “Title”（标题）字段中，输入一个描述性名称，例如 “My Windows PC”。</li>
+<li>在 “Key”（密钥）字段中，粘贴您刚才复制的公钥内容。</li>
+<li>点击 “Add SSH key”（添加 SSH 密钥）按钮。</li>
+</ul>
+<h2 id="4-在-Git-Bash-中，使用以下命令测试与-GitHub-的-SSH-连接："><a href="#4-在-Git-Bash-中，使用以下命令测试与-GitHub-的-SSH-连接：" class="headerlink" title="4. 在 Git Bash 中，使用以下命令测试与 GitHub 的 SSH 连接："></a>4. 在 Git Bash 中，使用以下命令测试与 GitHub 的 SSH 连接：</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>如果连接成功，您应该会看到一条欢迎消息。</p>
+<h2 id="5-本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件"><a href="#5-本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件" class="headerlink" title="5. 本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件"></a>5. 本地和GitHub通过ssh连接成功后，就可以执行第一步的四个命令，上传hexo的静态文件</h2><p> 创建后默认自动启用 HTTPS，博客地址为：https://用户名.github.io</p>
+]]></content>
+      <categories>
+        <category>-hexo</category>
+      </categories>
+      <tags>
+        <tag>-经验总结 -建站经验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>wamp服务器让局域网用户访问，403forbidden</title>
+    <url>/2019/03/01/wamp%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%AE%A9%E5%B1%80%E5%9F%9F%E7%BD%91%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE,403forbidden%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+    <content><![CDATA[<p>1.httpd.conf文件，搜索关键字：onlineoffline tag - don’t remove，将 Require local 修改成 Require all granted；</p>
+<p>2.httpd-Vhosts.conf 文件，同样将Require local 修改成 Require all granted；（这个是大多数博客没有写的）</p>
+<p>3.重启Apache；</p>
+<p>4.重点！重点！重点！  关闭防火墙.</p>
+<p><img src="https://s2.ax1x.com/2019/03/01/kH4RQH.png" alt="apache"></p>
+<p><img src="https://s2.ax1x.com/2019/03/01/kH4Wyd.png" alt="denfender"></p>
+]]></content>
+      <categories>
+        <category>-服务器</category>
+      </categories>
+      <tags>
+        <tag>-经验总结 -建站经验 -WAMP集成环境</tag>
       </tags>
   </entry>
   <entry>
@@ -314,62 +331,6 @@
       </tags>
   </entry>
   <entry>
-    <title>在sublime中运行JavaScript脚本</title>
-    <url>/2018/12/12/%E5%9C%A8sublime%E4%B8%AD%E8%BF%90%E8%A1%8CJavaScript%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>sublime是一款轻量级的文本编辑器，非常受大家的欢迎，它不仅启动迅速，还提供非常丰富的插件供大家扩展功能。对于我个人来讲，我非常喜欢用sublime编写单个的脚本文件。但是前端的小伙伴们知道，如果编写js脚本，要编译运行的话必须在浏览器或者是node中运行，虽然不麻烦，但总归还是会消耗一些时间，对于一些简单的脚本，我们想能够立即看到脚本运行的结果，那么今天我就介绍一个可以直接在sublime中运行js脚本文件的方法。</p>
-<a id="more"></a>
-<p>下面是详细的步骤：</p>
-<h4 id="安装node"><a href="#安装node" class="headerlink" title="安装node"></a>安装node</h4><p>在<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js的官网</a>下载并安装node.js，请确保你的node已经被添加到了环境变量中（这一步非常简单就不多说了，网上有很多教程请自行查阅）。</p>
-<h4 id="添加-build-system"><a href="#添加-build-system" class="headerlink" title="添加 build system"></a>添加 build system</h4><p>现在打开你的sublime，然后依次打开 Tools -&gt; Build System -&gt; New Build System，黏贴以下代码：<br><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"cmd"</span>: [<span class="string">"node"</span>, <span class="string">"--use-strict"</span>, <span class="string">"--harmony"</span>, <span class="string">"$file"</span>],</span><br><span class="line">    <span class="attr">"selector"</span>: <span class="string">"source.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>然后保存，这个时候sublime会自动识别并跳到build system的保存目录，取一个你喜欢的名字，比如JavaScript.sublime-build（这样方便识别），确定保存。</p>
-<p>另：上面的代码默认使用的是严格模式，并且支持ES6的新特性，如果你不想使用这些功能，可以使用下面的代码<br><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"cmd"</span>: [<span class="string">"node"</span>, <span class="string">"$file"</span>],</span><br><span class="line">    <span class="attr">"selector"</span>: <span class="string">"source.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h4 id="开始使用吧！"><a href="#开始使用吧！" class="headerlink" title="开始使用吧！"></a>开始使用吧！</h4><p>保存好之后打开你的sublime，在tool中选择build system，你就会看到那个刚刚你取名字的编译系统，选择它。</p>
-<p>新建一个js文件，写上js代码，比如：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="number">3</span>; i++) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'i:'</span>, i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>保存，然后按下<code>ctrl+B</code>，就可以看到运行结果了。</p>
-<p><img src="https://s1.ax1x.com/2018/12/12/FYhhdA.png" alt="示例的运行结果"></p>
-<p>是不是非常的神奇呢！！</p>
-<p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>web开发</tag>
-        <tag>经验总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>wamp服务器让局域网用户访问，403forbidden</title>
-    <url>/2019/03/01/wamp%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%AE%A9%E5%B1%80%E5%9F%9F%E7%BD%91%E7%94%A8%E6%88%B7%E8%AE%BF%E9%97%AE,403forbidden%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
-    <content><![CDATA[<p>1.httpd.conf文件，搜索关键字：onlineoffline tag - don’t remove，将 Require local 修改成 Require all granted；</p>
-<p>2.httpd-Vhosts.conf 文件，同样将Require local 修改成 Require all granted；（这个是大多数博客没有写的）</p>
-<p>3.重启Apache；</p>
-<p>4.重点！重点！重点！  关闭防火墙.</p>
-<p><img src="https://s2.ax1x.com/2019/03/01/kH4RQH.png" alt="apache"></p>
-<p><img src="https://s2.ax1x.com/2019/03/01/kH4Wyd.png" alt="denfender"></p>
-]]></content>
-      <categories>
-        <category>-服务器</category>
-      </categories>
-      <tags>
-        <tag>-经验总结 -建站经验 -WAMP集成环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用hexo d 报错</title>
-    <url>/2018/11/13/%E4%BD%BF%E7%94%A8hexo%20d%20%E6%8A%A5%E9%94%99/</url>
-    <content><![CDATA[<h3 id="使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>使用hexo d 提示You should configure deployment settings in _config.yml first!</h3><h5 id="问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!</h5><h5 id="Available-deployer-plugins"><a href="#Available-deployer-plugins" class="headerlink" title="Available deployer plugins:"></a>Available deployer plugins:</h5><h5 id="git"><a href="#git" class="headerlink" title="git"></a>git</h5><h5 id="For-more-help-you-can-check-the-online-docs-http-hexo-io"><a href="#For-more-help-you-can-check-the-online-docs-http-hexo-io" class="headerlink" title="For more help, you can check the online docs: http://hexo.io/"></a>For more help, you can check the online docs: <a href="http://hexo.io/" target="_blank" rel="noopener">http://hexo.io/</a></h5><h3 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题:"></a>解决问题:</h3><h5 id="1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装"><a href="#1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装" class="headerlink" title="1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装"></a>1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装</h5><h5 id="2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。"><a href="#2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。" class="headerlink" title="2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。"></a>2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。</h5><h5 id="以下为正确的写法-图片"><a href="#以下为正确的写法-图片" class="headerlink" title="以下为正确的写法(图片):"></a>以下为正确的写法(图片):</h5><p><img src="https://s1.ax1x.com/2018/11/13/iObz90.jpg" alt="iObz90.jpg"></p>
-<p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo报错</tag>
-        <tag>建站经验</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>炫酷的Canvas粒子特效</title>
     <url>/2018/12/12/%E7%82%AB%E9%85%B7%E7%9A%84Canvas%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/</url>
     <content><![CDATA[<p>随着html5<code>Canvas</code>元素的推出呢，现在的浏览器具备了更强大的绘制图像的功能，甚至<code>canvas</code>已经可以用来制作大型网页游戏，关于<code>Canvas</code>的js库也越来越多，有动画库还有图表库比如Echart等等。今天我就要给大家推荐两款非常炫酷的<code>Canvas</code>粒子特效，let’s hit the road!</p>
@@ -399,28 +360,47 @@
         <category>HTML5</category>
       </categories>
       <tags>
-        <tag>经验总结</tag>
         <tag>Canvas</tag>
+        <tag>经验总结</tag>
       </tags>
   </entry>
   <entry>
-    <title>如何解决前后端分离开发时的跨域问题</title>
-    <url>/2018/12/12/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？</p>
+    <title>在sublime中运行JavaScript脚本</title>
+    <url>/2018/12/12/%E5%9C%A8sublime%E4%B8%AD%E8%BF%90%E8%A1%8CJavaScript%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>sublime是一款轻量级的文本编辑器，非常受大家的欢迎，它不仅启动迅速，还提供非常丰富的插件供大家扩展功能。对于我个人来讲，我非常喜欢用sublime编写单个的脚本文件。但是前端的小伙伴们知道，如果编写js脚本，要编译运行的话必须在浏览器或者是node中运行，虽然不麻烦，但总归还是会消耗一些时间，对于一些简单的脚本，我们想能够立即看到脚本运行的结果，那么今天我就介绍一个可以直接在sublime中运行js脚本文件的方法。</p>
 <a id="more"></a>
-<h3 id="前台部分"><a href="#前台部分" class="headerlink" title="前台部分"></a>前台部分</h3><p>在前台的ajax请求中需要允许跨域，我使用的是jQuery的ajax函数，具体的设置如下：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">jQuery.ajax(&#123;</span><br><span class="line">            url : url,</span><br><span class="line">            data: data,</span><br><span class="line">            type : <span class="string">'POST'</span>,</span><br><span class="line">            xhrFields: &#123;</span><br><span class="line">                withCredentials: <span class="literal">true</span></span><br><span class="line">            &#125;,</span><br><span class="line">            dataType:<span class="string">"json"</span>,</span><br><span class="line">            crossDomain: <span class="literal">true</span>,</span><br><span class="line">            success:<span class="function"><span class="keyword">function</span> (<span class="params">result</span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求成功后的操作</span></span><br><span class="line">            &#125;,</span><br><span class="line">            error:<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求失败后的操作</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
-<h3 id="后台部分"><a href="#后台部分" class="headerlink" title="后台部分"></a>后台部分</h3><p>跨域问题最重要的还是后台部分，后台需要允许来自于其他域的请求，以下是php的解决方案：<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">header(<span class="string">"Access-Control-Allow-Credentials: true"</span>); <span class="comment">// 允许跨域访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:123.123.123.123"</span>);    <span class="comment">//允许来自123.123.123.123的ip地址提交访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:*"</span>);    <span class="comment">//允许任何地址的访问</span></span><br></pre></td></tr></table></figure></p>
-<p>其他语言的解决方案大同小异，主要就是在返回头中写上允许跨域访问的域名或IP就行，建议不要使用通配符 * ，这样对服务器来讲并不安全，尽管是在开发过程中。</p>
-<p>在前后台分离的开发过程中还有很多坑，需要我们一个一个去解决，特别是前后台数据交流的部分是很值得多思考的。现在前后台分离开发的模式在越来越多的项目中使用，早早熟悉有利于以后的职业生涯。以后还发现什么坑也会贴上来的(๑•̀ㅂ•́)و✧。</p>
-<p>最后推荐一本书，<a href="http://www.ituring.com.cn/book/1720" target="_blank" rel="noopener">json必知必会</a>，json是前后端交流的信使，熟悉它的用法和应用自然非常重要，最后祝大家学习愉快︿(￣︶￣)︿。</p>
+<p>下面是详细的步骤：</p>
+<h4 id="安装node"><a href="#安装node" class="headerlink" title="安装node"></a>安装node</h4><p>在<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js的官网</a>下载并安装node.js，请确保你的node已经被添加到了环境变量中（这一步非常简单就不多说了，网上有很多教程请自行查阅）。</p>
+<h4 id="添加-build-system"><a href="#添加-build-system" class="headerlink" title="添加 build system"></a>添加 build system</h4><p>现在打开你的sublime，然后依次打开 Tools -&gt; Build System -&gt; New Build System，黏贴以下代码：<br><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"cmd"</span>: [<span class="string">"node"</span>, <span class="string">"--use-strict"</span>, <span class="string">"--harmony"</span>, <span class="string">"$file"</span>],</span><br><span class="line">    <span class="attr">"selector"</span>: <span class="string">"source.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>然后保存，这个时候sublime会自动识别并跳到build system的保存目录，取一个你喜欢的名字，比如JavaScript.sublime-build（这样方便识别），确定保存。</p>
+<p>另：上面的代码默认使用的是严格模式，并且支持ES6的新特性，如果你不想使用这些功能，可以使用下面的代码<br><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"cmd"</span>: [<span class="string">"node"</span>, <span class="string">"$file"</span>],</span><br><span class="line">    <span class="attr">"selector"</span>: <span class="string">"source.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="开始使用吧！"><a href="#开始使用吧！" class="headerlink" title="开始使用吧！"></a>开始使用吧！</h4><p>保存好之后打开你的sublime，在tool中选择build system，你就会看到那个刚刚你取名字的编译系统，选择它。</p>
+<p>新建一个js文件，写上js代码，比如：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="number">3</span>; i++) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'i:'</span>, i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>保存，然后按下<code>ctrl+B</code>，就可以看到运行结果了。</p>
+<p><img src="https://s1.ax1x.com/2018/12/12/FYhhdA.png" alt="示例的运行结果"></p>
+<p>是不是非常的神奇呢！！</p>
 <p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
 ]]></content>
       <categories>
-        <category>跨域</category>
+        <category>JavaScript</category>
       </categories>
       <tags>
-        <tag>jQuery</tag>
-        <tag>ajax</tag>
+        <tag>web开发</tag>
+        <tag>经验总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用hexo d 报错</title>
+    <url>/2018/11/13/%E4%BD%BF%E7%94%A8hexo%20d%20%E6%8A%A5%E9%94%99/</url>
+    <content><![CDATA[<h3 id="使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>使用hexo d 提示You should configure deployment settings in _config.yml first!</h3><h5 id="问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first"><a href="#问题-使用hexo-d-提示You-should-configure-deployment-settings-in-config-yml-first" class="headerlink" title="问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!"></a>问题: 使用hexo d 提示You should configure deployment settings in _config.yml first!</h5><h5 id="Available-deployer-plugins"><a href="#Available-deployer-plugins" class="headerlink" title="Available deployer plugins:"></a>Available deployer plugins:</h5><h5 id="git"><a href="#git" class="headerlink" title="git"></a>git</h5><h5 id="For-more-help-you-can-check-the-online-docs-http-hexo-io"><a href="#For-more-help-you-can-check-the-online-docs-http-hexo-io" class="headerlink" title="For more help, you can check the online docs: http://hexo.io/"></a>For more help, you can check the online docs: <a href="http://hexo.io/" target="_blank" rel="noopener">http://hexo.io/</a></h5><h3 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题:"></a>解决问题:</h3><h5 id="1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装"><a href="#1-排查-gt-是否安装一下hexo-deployer-git这个模块没有安装-npm-install-hexo-deployer-git-–save使用指令安装" class="headerlink" title="1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装"></a>1.排查-&gt;是否安装一下hexo-deployer-git这个模块没有安装:npm install hexo-deployer-git –save使用指令安装</h5><h5 id="2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。"><a href="#2-排查-gt-config-yml-这个文件的deploy写了没有-写全了没有我的就是因为-config-yml中deploy下的type等前面没有空格导致。。。。。" class="headerlink" title="2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。"></a>2.排查-&gt;_config.yml 这个文件的deploy写了没有;写全了没有我的就是因为_config.yml中deploy下的type等前面没有空格导致。。。。。</h5><h5 id="以下为正确的写法-图片"><a href="#以下为正确的写法-图片" class="headerlink" title="以下为正确的写法(图片):"></a>以下为正确的写法(图片):</h5><p><img src="https://s1.ax1x.com/2018/11/13/iObz90.jpg" alt="iObz90.jpg"></p>
+<p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo报错</tag>
+        <tag>建站经验</tag>
       </tags>
   </entry>
   <entry>
@@ -472,6 +452,26 @@
       <tags>
         <tag>流行语</tag>
         <tag>文化碰撞</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何解决前后端分离开发时的跨域问题</title>
+    <url>/2018/12/12/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>最近在和小伙伴一起写一个项目，采用的是前后端分离开发，前后台的交流均通过ajax。但是我俩是在各自的电脑上开发各自的部分，所以两台电脑处于不同的域中，前台在请求后台接口时会发生跨域的问题，那么这个问题如何解决呢？</p>
+<a id="more"></a>
+<h3 id="前台部分"><a href="#前台部分" class="headerlink" title="前台部分"></a>前台部分</h3><p>在前台的ajax请求中需要允许跨域，我使用的是jQuery的ajax函数，具体的设置如下：<br><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">jQuery.ajax(&#123;</span><br><span class="line">            url : url,</span><br><span class="line">            data: data,</span><br><span class="line">            type : <span class="string">'POST'</span>,</span><br><span class="line">            xhrFields: &#123;</span><br><span class="line">                withCredentials: <span class="literal">true</span></span><br><span class="line">            &#125;,</span><br><span class="line">            dataType:<span class="string">"json"</span>,</span><br><span class="line">            crossDomain: <span class="literal">true</span>,</span><br><span class="line">            success:<span class="function"><span class="keyword">function</span> (<span class="params">result</span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求成功后的操作</span></span><br><span class="line">            &#125;,</span><br><span class="line">            error:<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 请求失败后的操作</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<h3 id="后台部分"><a href="#后台部分" class="headerlink" title="后台部分"></a>后台部分</h3><p>跨域问题最重要的还是后台部分，后台需要允许来自于其他域的请求，以下是php的解决方案：<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">header(<span class="string">"Access-Control-Allow-Credentials: true"</span>); <span class="comment">// 允许跨域访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:123.123.123.123"</span>);    <span class="comment">//允许来自123.123.123.123的ip地址提交访问</span></span><br><span class="line">header(<span class="string">"Access-Control-Allow-Origin:*"</span>);    <span class="comment">//允许任何地址的访问</span></span><br></pre></td></tr></table></figure></p>
+<p>其他语言的解决方案大同小异，主要就是在返回头中写上允许跨域访问的域名或IP就行，建议不要使用通配符 * ，这样对服务器来讲并不安全，尽管是在开发过程中。</p>
+<p>在前后台分离的开发过程中还有很多坑，需要我们一个一个去解决，特别是前后台数据交流的部分是很值得多思考的。现在前后台分离开发的模式在越来越多的项目中使用，早早熟悉有利于以后的职业生涯。以后还发现什么坑也会贴上来的(๑•̀ㅂ•́)و✧。</p>
+<p>最后推荐一本书，<a href="http://www.ituring.com.cn/book/1720" target="_blank" rel="noopener">json必知必会</a>，json是前后端交流的信使，熟悉它的用法和应用自然非常重要，最后祝大家学习愉快︿(￣︶￣)︿。</p>
+<p>作者：<a href="https://www.sitwo.cn/" target="_blank" rel="noopener">司徒静峰</a></p>
+]]></content>
+      <categories>
+        <category>跨域</category>
+      </categories>
+      <tags>
+        <tag>jQuery</tag>
+        <tag>ajax</tag>
       </tags>
   </entry>
   <entry>
